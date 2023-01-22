@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "name": "Arrow TL11 Woody Maple Black Telecaster",
+        "slug": "arrow-tl-11-woody-maple-black-telecaster",
+        "img": "https://via.placeholder.com/400x400",
+        "price": 47900,
+        "pickup": "Single (Nyak-közép-híd)",
+        "body": "Nyárfa",
+        "neck": "Kanadai juhar",
+        "bund": 22,
+        "color": "Barna",
+        "status": true
+    },
+    {
+        "id": 2,
+        "name": "Cort G100Jr OPB",
+        "slug": "cort-g100jr-obp",
+        "img": "https://via.placeholder.com/400x400",
+        "price": 59900,
+        "pickup": "Powersound S-S-S hangszedő szett",
+        "body": "Nyárfa",
+        "neck": "Juhar",
+        "bund": 22,
+        "color": "Fekete",
+        "status": true
+    },
+
+    {
+        "id":3,
+        "name":"Cort G110 OPBK",
+        "slug":"cort-g110-opbk",
+        "img":"https://via.placeholder.com/400x400",
+        "price":63900,
+        "pickup":"Cort® Powersound HSS szett",
+        "body":"Nyárfa",
+        "neck":"Kemény juhar",
+        "bund":22,
+        "color":"Nyílt pórusú fekete",
+        "status":true
+
+    },
+   
+    {
+        "id": 4,
+        "name": "Ibanez PGMM21 MGN",
+        "slug": "ibanez-pgmm21-mgn",
+        "img": "https://via.placeholder.com/400x400",
+        "price": 81900,
+        "pickup": "H-H, Érzékelő model: 2x Infinity R",
+        "body": "Nyárfa",
+        "neck": "Juharfa",
+        "bund": 24,
+        "color": "Zöld",
+        "status": true
+    },
+    
+    {
+        "id": 5,
+        "name": "Jackson JS22 Monarkh SC Snow White",
+        "slug": "jackson-js22-monarkh-sc-snow-white",
+        "img": "https://via.placeholder.com/400x400",
+        "price": 96900,
+        "pickup": "Jackson High Output humbucker",
+        "body": "Nato",
+        "neck": "Jávor",
+        "bund": 22,
+        "color": "fehér",
+        "status": true
+    },
+    {
+        "id": 6,
+        "name": "ESP/LTD MH-10KIT BK",
+        "slug": "esp-ltd-mh-10kit-bk",
+        "img": "https://via.placeholder.com/400x400",
+        "price": 102900,
+        "pickup": "ESP Designed LH-100N (nyak) ESP Designed LH-100B (híd)",
+        "body": "Hársfa",
+        "neck": "Jávor",
+        "bund": 24,
+        "color": "Fekete",
+        "status": true
+    }
+]

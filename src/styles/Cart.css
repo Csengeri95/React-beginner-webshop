@@ -1,0 +1,60 @@
+.Cart {
+    min-height: 80vh;
+    background-color: #EEE2DC;
+}
+
+.Cart a {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.651);
+}
+
+.holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.008);
+}
+
+.card-left {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    margin-left: 5px;
+}
+
+.card-right {
+    text-align: center;
+}
+
+.card-right button {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    align-self: center;
+    font-size: .7rem;
+    padding: .5em 1.4em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.card-right button:hover,
+.card-right button:focus {
+    color: #fff;
+    outline: 0;
+    transition: box-shadow 300ms ease-in-out, color;
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+}
