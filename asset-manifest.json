@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/React-beginner-webshop/static/css/main.9aaea3b4.css",
+    "main.js": "/React-beginner-webshop/static/js/main.0a0f4178.js",
+    "static/media/logo.jpg": "/React-beginner-webshop/static/media/logo.b634d275c11e70e14066.jpg",
+    "static/media/guitar2.jpg": "/React-beginner-webshop/static/media/guitar2.dffb67ad946fb2c556cc.jpg",
+    "static/media/guitar1.jpg": "/React-beginner-webshop/static/media/guitar1.9744bc3301ff1074000a.jpg",
+    "static/media/guitar3.jpg": "/React-beginner-webshop/static/media/guitar3.1909599e6d0e281c7fb7.jpg",
+    "static/media/guitar4.jpg": "/React-beginner-webshop/static/media/guitar4.37b61ca9ecb9fb7a6c7a.jpg",
+    "index.html": "/React-beginner-webshop/index.html",
+    "main.9aaea3b4.css.map": "/React-beginner-webshop/static/css/main.9aaea3b4.css.map",
+    "main.0a0f4178.js.map": "/React-beginner-webshop/static/js/main.0a0f4178.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9aaea3b4.css",
+    "static/js/main.0a0f4178.js"
+  ]
+}
