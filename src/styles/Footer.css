@@ -1,0 +1,7 @@
+.Footer{
+    background-color: #1D486B;
+    font-weight: 400;
+    color:#fff;
+    min-height: 11vh;
+    display: flex;
+}

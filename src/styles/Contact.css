@@ -1,0 +1,30 @@
+.contact {
+    height: 85vh;
+    background-color: #EEE2DC;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact a{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.651);
+}
+
+.contact h2{
+    color: rgba(255, 0, 0, 0.651);
+}
+
+
+iframe {
+    border-radius: 10px;
+    margin-left: .9rem;
+}
+
+@media screen and (min-width:992px) {
+    .contact{
+        max-height: 75vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}

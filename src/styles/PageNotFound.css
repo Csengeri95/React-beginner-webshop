@@ -1,0 +1,12 @@
+.PageNotFound {
+    min-height: 80vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EEE2DC;
+}
+
+.PageNotFound h1 {
+    color: rgba(255, 0, 0, 0.651);
+}

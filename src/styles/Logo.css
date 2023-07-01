@@ -1,0 +1,9 @@
+.Logo {
+    cursor: pointer;
+}
+
+@media screen and (min-width:1200px) {
+    .Logo img {
+      width:75%;
+    }
+  }

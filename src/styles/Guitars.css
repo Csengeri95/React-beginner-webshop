@@ -1,0 +1,83 @@
+.Guitars {
+    display: flex;
+    background-color: #EEE2DC;
+}
+
+.selected {
+    background-color: #EEE2DC;
+    padding-bottom: 10px;
+    min-height: 75vh;
+
+}
+
+.selected img {
+    border-radius: 10px;
+}
+
+.select {
+    background-color: #EEE2DC;
+    padding-left: .5rem;
+    padding-top: .5rem;
+    display: flex;
+}
+
+.select select {
+    height: 2rem;
+    border-radius: .2rem;
+    outline: none;
+    font-size: 1rem;
+}
+
+.Products {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.Products h4,
+img {
+    cursor: pointer;
+}
+
+.guitar-holder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #EEE2DC;
+}
+
+.btn {
+    padding: 2px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.4s ease;
+    font-size: 1rem;
+    background-color: rgb(204, 204, 204);
+    margin-right: 2px;
+    color: black;
+    font-weight: 550;
+
+}
+
+.btn:hover {
+    background-color: rgba(45, 45, 45, 0.6);
+}
+
+.highlight {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (min-width:800px) {
+    .guitar-holder{
+        grid-template-columns: repeat(4,1fr);
+        width:100%;
+    }
+}

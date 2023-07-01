@@ -1,0 +1,74 @@
+.Home {
+    min-height: 80vh;
+    background-color: #EEE2DC;
+}
+
+.Home .introduction {
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.Home .introduction h1 {
+    color: rgba(255, 0, 0, 0.651);
+}
+
+.Home .introduction p {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.Home .introduction .highlight {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.Home .images {
+    width: 20em;
+    height: 25em;
+    border: none;
+    border-radius: 10px;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    animation-name: imageChanger;
+
+
+}
+
+@keyframes imageChanger {
+    0% {
+        background-image: url("../images//guitar1.jpg")
+    }
+
+    25% {
+        background-image: url("../images/guitar2.jpg")
+    }
+
+    50% {
+        background-image: url("../images//guitar3.jpg")
+    }
+
+
+    100% {
+        background-image: url("../images//guitar4.jpg")
+    }
+
+}
+
+@media screen and (min-width:700px) {
+
+    .Home .images {
+        width: 35em;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    .Home .images {
+        width: 45em;
+    }
+}
